@@ -1,24 +1,22 @@
 # Food Delivery Platform
 
-This project is a full-stack food delivery application developed using React.js, Node.js, Express.js, and MySQL. The application allows users to browse food items, register and log in securely, manage orders, and access different functionalities based on user roles.
+This project is a full-stack food delivery application developed using Node.js, Express.js, MySQL, HTML, CSS, and JavaScript. The application allows users to register, log in, browse food items, and manage orders through a simple and responsive interface.
 
-The project is divided into frontend and backend modules. The frontend contains the user interface pages, while the backend handles APIs, database operations, authentication, and server-side logic.
+The backend handles authentication, routing, database connectivity, and API operations, while the frontend is built using HTML, CSS, and JavaScript.
 
 ## Features
 
 - User registration and login
 - JWT-based authentication
-- Product and food item management
-- Cart and order handling
-- Role-based access for customers and owners
+- Food item and order management
+- Customer and owner modules
 - REST API integration
-- Responsive user interface
-- MySQL database support
+- Responsive frontend design
+- MySQL database connectivity
 
 ## Technologies Used
 
 ### Frontend
-- React.js
 - HTML
 - CSS
 - JavaScript
@@ -42,8 +40,6 @@ Food-Delivery-Platform/
 │   ├── package.json
 │   ├── package-lock.json
 │   └── server.js
-│
-├── frontend/
 │
 ├── css/
 ├── js/
@@ -79,27 +75,7 @@ Install dependencies:
 npm install
 ```
 
-Start the backend server:
-
-```bash
-npm start
-```
-
-## Frontend Setup
-
-Move to the frontend folder:
-
-```bash
-cd frontend
-```
-
-Install required packages:
-
-```bash
-npm install
-```
-
-Run the frontend application:
+Run the server:
 
 ```bash
 npm start
@@ -126,23 +102,24 @@ Create the database in MySQL:
 CREATE DATABASE food_delivery;
 ```
 
-Import the required tables into the database before running the project.
+Import the required tables before starting the project.
 
 ## Pages Included
 
-- `login.html` – User login page
-- `register.html` – User registration page
-- `customer.html` – Customer dashboard
-- `owner.html` – Owner dashboard
+- `login.html` – Login page
+- `register.html` – Registration page
+- `customer.html` – Customer interface
+- `owner.html` – Owner interface
 
-## Future Enhancements
+## Future Improvements
 
-- Online payment integration
-- Real-time order tracking
-- Notification system
-- Admin dashboard
-- Review and rating feature
+- Payment gateway integration
+- Live order tracking
+- Admin panel
+- Product reviews and ratings
+- Email notifications
 
 ## Author
 
-Tejaswini Kanaparthi
+Tejaswini Kanaparthi 
+LokeshReddy Goli
